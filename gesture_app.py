@@ -1,3 +1,17 @@
+"""
+╔══════════════════════════════════════════════════════╗
+║   🖐️  Hand Gesture App — Unified Launcher  🖐️       ║
+╚══════════════════════════════════════════════════════╝
+
+A single script that lets you choose at startup:
+  [1]  Distance Math Calculator  — measure & calculate with fingers
+  [2]  AI Virtual Mouse          — control your entire Mac with gestures
+  [3]  On-Screen Keyboard        — type using hand gestures
+  [Q]  Quit
+
+Run:
+    python gesture_app.py
+"""
 import cv2
 import mediapipe as mp
 import numpy as np
